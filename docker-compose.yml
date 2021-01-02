@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  backend:
+    build:
+       context: .
+       dockerfile: .backend.Dockerfile
+    command: python manage.py runserver 0.0.0.0:8024
+    ports:
+      - "8024:8024"
