@@ -1,2 +1,3 @@
 $ docker-compose up --build
-Ping localhost:8024
+
+$ Ping localhost:8024
